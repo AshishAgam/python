@@ -1,4 +1,4 @@
-'''print("hello world")
+print("hello world")
 a=int(input("Enter first number:"))
 b=int(input("Enter second number:"))
 c=a+b
@@ -24,7 +24,7 @@ print(course.find('y'))
 print(course.replace('for','4'))
 print('Python' in course)
 
-print(10//3)'''
+print(10//3)
 
 #logical operators
 mrp=5
