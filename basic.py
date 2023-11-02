@@ -102,6 +102,13 @@ Fahrenheit = int(input("Please enter an integer value for degrees Fahrenheit. ")
 def celsius(far):
     return ((1.8 * far + 32), 1)
 print("The celsius equivalent of " + str(Fahrenheit) + " degrees Fahrenheit is " + str(celsius(Fahrenheit)) + ".")
+
+#addition using function
+a=int(input("enter a:"))
+b=int(input("enter b:"))
+def add(x,y):
+   return x+y
+print("the addition of "+str(a)+" and "+str(b)+" is "+str(add(a,b))+".")
     
 #moduls 
 #generic import
@@ -121,10 +128,11 @@ fuel = randint(10, 25)
 miles = randint(200, 400)
 print("The car can travel " + str(miles // fuel) + " miles per gallon.")
 print("The car's fuel tank can hold " + str(fuel) + " gallons.")
-print("The car can travel " + str(miles) + " miles on a full tank.")'''
+print("The car can travel " + str(miles) + " miles on a full tank.")
 
+#addition using function
 a=int(input("enter a:"))
 b=int(input("enter b:"))
 def add(x,y):
    return x+y
-print("the addition of "+str(a)+" and "+str(b)+" is "+str(add(a,b))+".")
+print("the addition of "+str(a)+" and "+str(b)+" is "+str(add(a,b))+".")'''
