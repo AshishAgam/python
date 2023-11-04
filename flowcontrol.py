@@ -21,7 +21,7 @@ if gap>=3.7:
         print("The applicant does not qualify since they have not been accepted into an approved institution")
 else:
     print("the applicant did not have high enough grades to qualify")
-score = int(input("Please enter the student's score. "))''' 
+score = int(input("Please enter the student's score. "))
  
 #nested if else
 score=int(input("Enter score:"))
@@ -39,7 +39,7 @@ elif score >= 60:
 else:
                 print("This student's score of " + str(score) + " is a F.")
 
-'''#elif statement
+#elif statement
 from random import randint
 one_to_ten = randint(1, 10)
  
