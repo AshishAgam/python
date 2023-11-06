@@ -18,7 +18,7 @@ print("".join(["one","two","three"]))
 print(" ".join(["one","two","three"]))
 print(",".join(["one","two","three"]))
 print(" ,".join(["one","two","three"]))
-print("....".join(["one","two","three"]))'''
+print("....".join(["one","two","three"]))
 
 a="12"
 b=(a.isalnum())     
@@ -26,4 +26,10 @@ print(b)
 
 
 a="one two three"
-print(a.split())
+print(a.split())'''
+
+user_string = input("Please enter a string.")
+reversed = ""
+for item in range(len(user_string)  -1, -1):
+    reversed += user_string[item]
+print(reversed)
